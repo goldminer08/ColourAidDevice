@@ -7,7 +7,7 @@ Built with **two STM32 boards** communicating wirelessly using **point-to-point 
 ---
 
 ## ✨ Features
-- 🌈 **RGB color sensing** (captures color readings from an object/scene)
+- 🌈 **RGB color sensing** (captures color readings from an object)
 - 📡 **Wireless point-to-point radio link** (sensor unit → output unit)
 - 📟 **LCD display** shows the detected **color name**
 - 🔊 **Speaker output** announces the color for accessibility
