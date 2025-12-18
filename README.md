@@ -19,7 +19,7 @@ Built with **two STM32 boards** communicating wirelessly using **point-to-point 
 ## 🧠 System Architecture
 
 ### 1) Sensor Node (STM32 #1)
-- Reads the **RGB sensor** (I2C/SPI depending on module)
+- Reads the **RGB sensor** (Using I2C)
 - Applies basic filtering/normalization
 - Classifies the reading into a **human-friendly color name**
 - Transmits the result over **P2P radio**
