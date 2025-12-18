@@ -1,6 +1,6 @@
 # 🎨 Color Aid Device (Dual-STM32 • Wireless • C)
 
-An assistive embedded system that **detects real-world colors** using an **RGB sensor** and communicates the result to a second unit that outputs the **color name on an LCD** and provides **audio feedback via a speaker**.
+An assistive embedded system that **detects colors** using an **RGB sensor** and communicates the result to a second unit that outputs the **color name on an LCD** and provides **audio feedback via a speaker**.
 
 Built with **two STM32 boards** communicating wirelessly using **point-to-point radio**, with firmware written in **C**.
 
