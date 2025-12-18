@@ -27,12 +27,12 @@ Built with **two STM32 boards** communicating wirelessly using **point-to-point 
 ### 2) Output Node (STM32 #2)
 - Receives color packets via radio
 - Displays the **color name** on the **LCD**
-- Triggers the **speaker** (tone/voice prompt depending on implementation)
+- Triggers the **speaker** (voice prompt)
 
 ---
 
 ## 🛠️ Tech Stack
-- **Firmware:** C (bare-metal / HAL/LL-style embedded C)
+- **Firmware:** C (Embedded C)
 - **MCU platform:** STM32
 - **Wireless:** Point-to-point radio communication
 - **Peripherals:** RGB sensor + LCD + speaker
