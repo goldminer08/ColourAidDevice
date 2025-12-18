@@ -142,22 +142,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_RESET);
-//	  HAL_Delay(pulse_time);
-//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
-//	  HAL_Delay(wait_time);
-//	  play_audio("red");
-//	  play_audio("green");
-//	  play_audio("red");
-//	  play_audio("purple");
-//	  play_audio("blue");
-//	  play_audio("orange");
-//	  play_audio("yellow");
-//	  play_audio("black");
-//	  play_audio("white");
-//	  play_audio("pink");
-//	  play_audio("grey");
-//	  play_audio("brown");
 
 	  if(pending_play == true)
 	  {
@@ -165,16 +149,7 @@ int main(void)
 		 play_audio(audioToPlay);
 		 pending_play = false;
 	  }
-//	  else
-//	  {
-//		  play_audio("purple");
-//	  }
-    /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
-	  //Transmission stuff
-//	  HAL_UART_Transmit(&huart1, tx_buffer, 30, 100);
-//	  HAL_Delay(3000);
   }
   /* USER CODE END 3 */
 }
@@ -677,3 +652,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
