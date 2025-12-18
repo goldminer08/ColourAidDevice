@@ -139,72 +139,6 @@ int main(void)
 
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
   HAL_Delay(3000);
-//  int compare(char[] colour_sent, char[] colour) {
-//
-//      for (int k = 0; true; ++k) {
-//          if ((colour_sent[k] == colour[k]) && (colour_sent[k] == '\0')) { //is the same
-//              return 0;
-//          }
-//          else {
-//        	  return 1; //not the same
-//          }
-//      }
-//      assert(false);
-//      return 0;
-//  }
-//  void play_audio (char str[])
-//  {
-//	  char red[] = "red";
-//	  char green[] = "green";
-//	  char purple[] = "purple";
-//	  char blue[] = "blue";
-//	  char orange[] = "orange";
-//	  char yellow[] = "yellow";
-//	  char black[] = "black";
-//	  char white[] = "white";
-//	  char pink[] = "pink";
-//	  char grey[] = "grey";
-//	  char brown[] = "brown";
-//
-//	  if (compare(str, red) == 0)
-//	  {
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
-//
-//	  }
-//	  else if(compare(str, green) == 0)
-//	  {
-//		  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, GPIO_PIN_SET);
-//	  }
-//	  else if(compare(str, purple) == 0) {
-//		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET);
-//	  }
-//	  else if (compare(str, blue) == 0)
-//	  {
-//		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_SET);
-//	  }
-//	  else if (compare(str, orange) == 0)
-//	  {
-//		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, GPIO_PIN_SET);
-//	  }
-//	  else if (compare(str, yellow) == 0) {
-//		  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, GPIO_PIN_SET);
-//	  }
-//	  else if(compare(str, black) == 0) {
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_SET);
-//	  }
-//	  else if (compare(str, white) == 0) {
-//		  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_SET);
-//	  }
-//	  else if (compare(str, pink) == 0) {
-//		  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, GPIO_PIN_SET);
-//	  }
-//	  else if (compare(str, grey) == 0) {
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_SET);
-//	  }
-//	  else if (compare(str, brown) == 0) {
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
-//	  }
-//  }
 
 
   /* USER CODE END 2 */
@@ -522,3 +456,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
